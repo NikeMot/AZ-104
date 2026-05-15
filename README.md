@@ -10,7 +10,9 @@ The lab programme converts AZ-104 course knowledge into practical Azure administ
 |---|---|---|---|
 | Lab 01 | Completed | Manage Azure identities and governance | Guided practice |
 | Lab 02 | Completed | Manage Azure identities and governance | Blank from-scratch challenge |
-| Lab 03 | In progress | Implement and manage storage | Guided practice |
+| Lab 03 | Completed | Implement and manage storage | Guided practice |
+| Lab 04 | Completed | Implement and manage storage | Blank from-scratch challenge |
+| Lab 05 | Completed | Implement and manage virtual networking | Guided networking architecture lab |
 
 Only completed labs are uploaded to this repository.
 
@@ -25,14 +27,25 @@ The lab method focuses on the way AZ-104 questions are usually framed:
 - distinguish tags from Azure Policy
 - distinguish resource locks from RBAC permissions
 - validate access assignments and inheritance
-- document implementation issues and exam lessons
+- distinguish storage access controls from storage data protection features
+- distinguish service endpoints from private endpoints
+- distinguish NSGs from UDRs
+- distinguish Bastion admin access from public application frontend access
+- use Network Watcher tools based on the troubleshooting layer being tested
 
 ## Repository Structure
 
 ```text
 AZ-104-Labs/
 ├── Lab-01-Guided-Identity-Governance/
-└── Lab-02-Blank-Identity-Governance/
+├── Lab-02-Blank-Identity-Governance/
+├── Lab-03-Guided-Storage/
+├── Lab-04-Blank-Storage/
+└── Lab-05-Guided-Networking/
+    ├── README.md
+    ├── validation.md
+    ├── troubleshooting.md
+    └── reflection.md
 ```
 
 ## Completed Domains
@@ -58,6 +71,44 @@ The completed labs cover:
 - budgets and cost alerts
 - Azure Advisor recommendations
 
+### Implement and manage storage
+
+The completed labs cover:
+
+- storage accounts
+- Azure Storage redundancy
+- storage firewalls and virtual networks
+- shared access signatures, SAS
+- stored access policies
+- access keys and key rotation
+- identity-based access for Azure Files
+- blob containers
+- Azure file shares
+- storage tiers
+- blob lifecycle management
+- blob versioning
+- soft delete
+- Azure Files snapshots
+- Storage Explorer and AzCopy concepts
+
+### Implement and manage virtual networking
+
+The completed Lab 05 covers:
+
+- virtual networks and subnets
+- VNet peering
+- public IP addresses
+- user-defined routes
+- NSGs and ASGs
+- effective security rules
+- Azure Bastion
+- service endpoints
+- private endpoints
+- private DNS for private endpoint resolution
+- public Azure Load Balancer
+- health probes, backend pools, and load balancing rules
+- Network Watcher troubleshooting tools including IP flow verify, Next hop, effective routes, effective security rules, and Connection Monitor
+
 ## Notes
 
-This repository intentionally avoids uploading screenshots or secrets. Evidence is documented through written validation notes, command summaries, access reviews, and reflection files.
+This repository intentionally avoids uploading screenshots or secrets. Evidence is documented through written validation notes, command summaries, access reviews, troubleshooting notes, and reflection files.
