@@ -13,6 +13,7 @@ The lab programme converts AZ-104 course knowledge into practical Azure administ
 | Lab 03 | Completed | Implement and manage storage | Guided practice |
 | Lab 04 | Completed | Implement and manage storage | Blank from-scratch challenge |
 | Lab 05 | Completed | Implement and manage virtual networking | Guided networking architecture lab |
+| Lab 06 | Completed | Implement and manage virtual networking | Blank from-scratch challenge |
 
 Only completed labs are uploaded to this repository.
 
@@ -41,7 +42,14 @@ AZ-104-Labs/
 ├── Lab-02-Blank-Identity-Governance/
 ├── Lab-03-Guided-Storage/
 ├── Lab-04-Blank-Storage/
-└── Lab-05-Guided-Networking/
+├── Lab-05-Guided-Networking/
+│   ├── README.md
+│   ├── dns.md
+│   ├── questions.md
+│   ├── validation.md
+│   ├── troubleshooting.md
+│   └── reflection.md
+└── Lab-06-Blank-Networking/
     ├── README.md
     ├── validation.md
     ├── troubleshooting.md
@@ -93,7 +101,7 @@ The completed labs cover:
 
 ### Implement and manage virtual networking
 
-The completed Lab 05 covers:
+The completed networking labs cover:
 
 - virtual networks and subnets
 - VNet peering
@@ -104,10 +112,11 @@ The completed Lab 05 covers:
 - Azure Bastion
 - service endpoints
 - private endpoints
-- private DNS for private endpoint resolution
+- Azure DNS and private DNS for private endpoint resolution
 - public Azure Load Balancer
 - health probes, backend pools, and load balancing rules
 - Network Watcher troubleshooting tools including IP flow verify, Next hop, effective routes, effective security rules, and Connection Monitor
+- from-scratch architecture design from business requirements
 
 ## Notes
 
