@@ -14,6 +14,7 @@ The lab programme converts AZ-104 course knowledge into practical Azure administ
 | Lab 04 | Completed | Implement and manage storage | Blank from-scratch challenge |
 | Lab 05 | Completed | Implement and manage virtual networking | Guided networking architecture lab |
 | Lab 06 | Completed | Implement and manage virtual networking | Blank from-scratch challenge |
+| Lab 07 | Completed | Deploy and manage Azure compute resources | Guided compute architecture lab |
 
 Only completed labs are uploaded to this repository.
 
@@ -32,6 +33,8 @@ The lab method focuses on the way AZ-104 questions are usually framed:
 - distinguish service endpoints from private endpoints
 - distinguish NSGs from UDRs
 - distinguish Bastion admin access from public application frontend access
+- distinguish VM, VMSS, ACI, Container Apps, and App Service workload patterns
+- distinguish App Service VNet integration from App Service private endpoint
 - use Network Watcher tools based on the troubleshooting layer being tested
 
 ## Repository Structure
@@ -49,7 +52,12 @@ AZ-104-Labs/
 │   ├── validation.md
 │   ├── troubleshooting.md
 │   └── reflection.md
-└── Lab-06-Blank-Networking/
+├── Lab-06-Blank-Networking/
+│   ├── README.md
+│   ├── validation.md
+│   ├── troubleshooting.md
+│   └── reflection.md
+└── Lab-07-Guided-Compute/
     ├── README.md
     ├── validation.md
     ├── troubleshooting.md
@@ -117,6 +125,31 @@ The completed networking labs cover:
 - health probes, backend pools, and load balancing rules
 - Network Watcher troubleshooting tools including IP flow verify, Next hop, effective routes, effective security rules, and Connection Monitor
 - from-scratch architecture design from business requirements
+
+### Deploy and manage Azure compute resources
+
+The completed Lab 07 covers:
+
+- virtual machines
+- VM sizing
+- managed disks and data disks
+- disk caching
+- encryption at host
+- availability zones and availability sets
+- VM move patterns and limitations
+- Virtual Machine Scale Sets
+- VMSS autoscale concepts
+- ARM templates and Bicep
+- Azure Container Registry
+- Azure Container Instances
+- Azure Container Apps
+- App Service plans
+- App Service web apps
+- App Service scaling
+- deployment slots
+- custom DNS and TLS for App Service
+- App Service networking
+- App Service backup
 
 ## Notes
 
