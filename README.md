@@ -15,6 +15,7 @@ The lab programme converts AZ-104 course knowledge into practical Azure administ
 | Lab 05 | Completed | Implement and manage virtual networking | Guided networking architecture lab |
 | Lab 06 | Completed | Implement and manage virtual networking | Blank from-scratch challenge |
 | Lab 07 | Completed | Deploy and manage Azure compute resources | Guided compute architecture lab |
+| Lab 08 | Completed | Deploy and manage Azure compute resources | Blank from-scratch challenge |
 
 Only completed labs are uploaded to this repository.
 
@@ -57,7 +58,12 @@ AZ-104-Labs/
 │   ├── validation.md
 │   ├── troubleshooting.md
 │   └── reflection.md
-└── Lab-07-Guided-Compute/
+├── Lab-07-Guided-Compute/
+│   ├── README.md
+│   ├── validation.md
+│   ├── troubleshooting.md
+│   └── reflection.md
+└── Lab-08-Blank-Compute/
     ├── README.md
     ├── validation.md
     ├── troubleshooting.md
@@ -128,7 +134,7 @@ The completed networking labs cover:
 
 ### Deploy and manage Azure compute resources
 
-The completed Lab 07 covers:
+The completed compute labs cover:
 
 - virtual machines
 - VM sizing
@@ -150,6 +156,7 @@ The completed Lab 07 covers:
 - custom DNS and TLS for App Service
 - App Service networking
 - App Service backup
+- from-scratch compute feature selection from workload requirements
 
 ## Notes
 
