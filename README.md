@@ -17,6 +17,7 @@ The lab programme converts AZ-104 course knowledge into practical Azure administ
 | Lab 07 | Completed | Deploy and manage Azure compute resources | Guided compute architecture lab |
 | Lab 08 | Completed | Deploy and manage Azure compute resources | Blank from-scratch challenge |
 | Lab 09 | Completed | Monitor and maintain Azure resources | Guided monitoring, backup, and recovery lab |
+| Lab 10 | Completed | Monitor and maintain Azure resources | Blank monitoring, backup, and recovery challenge |
 
 Only completed labs are uploaded to this repository.
 
@@ -71,7 +72,12 @@ AZ-104-Labs/
 │   ├── validation.md
 │   ├── troubleshooting.md
 │   └── reflection.md
-└── Lab-09-Guided-Monitoring-Backup/
+├── Lab-09-Guided-Monitoring-Backup/
+│   ├── README.md
+│   ├── validation.md
+│   ├── troubleshooting.md
+│   └── reflection.md
+└── Lab-10-Blank-Monitoring-Backup/
     ├── README.md
     ├── validation.md
     ├── troubleshooting.md
@@ -168,7 +174,7 @@ The completed compute labs cover:
 
 ### Monitor and maintain Azure resources
 
-The completed Lab 09 covers:
+The completed monitoring and maintenance labs cover:
 
 - Azure Monitor metrics
 - diagnostic settings
@@ -190,6 +196,21 @@ The completed Lab 09 covers:
 - Azure Site Recovery
 - test failover and failover concepts
 - backup reports and alerts
+- from-scratch monitoring, alerting, backup, restore, and DR design from requirements
+
+## Programme Completion
+
+The 10 core AZ-104 labs are complete:
+
+```text
+2 identity/governance labs
+2 storage labs
+2 networking labs
+2 compute labs
+2 monitoring/backup/recovery labs
+```
+
+These labs cover all five AZ-104 skill domains and focus on the exam's decision-making patterns: selecting the correct Azure feature, applying the correct scope, validating the design, and documenting the reasoning.
 
 ## Notes
 
