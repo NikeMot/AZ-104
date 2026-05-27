@@ -16,6 +16,7 @@ The lab programme converts AZ-104 course knowledge into practical Azure administ
 | Lab 06 | Completed | Implement and manage virtual networking | Blank from-scratch challenge |
 | Lab 07 | Completed | Deploy and manage Azure compute resources | Guided compute architecture lab |
 | Lab 08 | Completed | Deploy and manage Azure compute resources | Blank from-scratch challenge |
+| Lab 09 | Completed | Monitor and maintain Azure resources | Guided monitoring, backup, and recovery lab |
 
 Only completed labs are uploaded to this repository.
 
@@ -36,6 +37,8 @@ The lab method focuses on the way AZ-104 questions are usually framed:
 - distinguish Bastion admin access from public application frontend access
 - distinguish VM, VMSS, ACI, Container Apps, and App Service workload patterns
 - distinguish App Service VNet integration from App Service private endpoint
+- distinguish Azure Monitor metrics, logs, alerts, and diagnostic settings
+- distinguish Azure Backup from Azure Site Recovery
 - use Network Watcher tools based on the troubleshooting layer being tested
 
 ## Repository Structure
@@ -63,7 +66,12 @@ AZ-104-Labs/
 │   ├── validation.md
 │   ├── troubleshooting.md
 │   └── reflection.md
-└── Lab-08-Blank-Compute/
+├── Lab-08-Blank-Compute/
+│   ├── README.md
+│   ├── validation.md
+│   ├── troubleshooting.md
+│   └── reflection.md
+└── Lab-09-Guided-Monitoring-Backup/
     ├── README.md
     ├── validation.md
     ├── troubleshooting.md
@@ -157,6 +165,31 @@ The completed compute labs cover:
 - App Service networking
 - App Service backup
 - from-scratch compute feature selection from workload requirements
+
+### Monitor and maintain Azure resources
+
+The completed Lab 09 covers:
+
+- Azure Monitor metrics
+- diagnostic settings
+- Log Analytics workspaces
+- KQL queries
+- metric alerts
+- log search alerts
+- activity log alerts
+- action groups
+- alert processing rules
+- VM insights
+- storage monitoring and insights
+- Network Watcher and Connection Monitor
+- Recovery Services vaults
+- Backup vaults
+- backup policies
+- Azure VM backup
+- file recovery and VM restore options
+- Azure Site Recovery
+- test failover and failover concepts
+- backup reports and alerts
 
 ## Notes
 
